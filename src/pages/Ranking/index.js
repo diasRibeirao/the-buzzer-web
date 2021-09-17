@@ -1,10 +1,13 @@
 import React from 'react';
+import { Container } from "./styles";
 
 function Ranking() {
   return (
-    <div className='ranking'>
-      <h1>Ranking</h1>
-    </div>
+    <Container>
+        <header>
+            <h3>Qual ranking deseja ver?</h3>
+        </header>
+    </Container>
   );
 }
 

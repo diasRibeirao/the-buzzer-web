@@ -13,13 +13,15 @@ export const Container = styled.header`
     position: fixed;
     top: 0;
     width: 100vw;
+    
 
     box-shadow: 0px 0px 10px var(--bgSecondary);
     
     > div {
-        display: flex;
         align-items: center;
         gap: 5px;
+        width: 100%;
+        text-align: center; 
 
         p {
             font-size: 24px;
