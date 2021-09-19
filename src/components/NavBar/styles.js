@@ -63,6 +63,7 @@ export const Container = styled.nav`
   
   .nav-menu-items {
     width: 100%;
+    padding: 0;
   }
   
   .navbar-toggle {

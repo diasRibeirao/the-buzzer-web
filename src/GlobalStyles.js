@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export const GlobalStyles = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
@@ -10,6 +11,7 @@ export const GlobalStyles = createGlobalStyle`
        --textPrimary: #000000;
        --textSecondary: #616D72;
        --textButton: #ffffff;
+       --bgStar: #FFD700
    }
 
     * {
