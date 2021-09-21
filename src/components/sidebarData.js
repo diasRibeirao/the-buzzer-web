@@ -35,6 +35,12 @@ export const SidebarData = [
         cName: "nav-text"
     },
     {
+        title: "Pesquisar Rota",
+        path: "/direct",
+        icon: <FaIcons.FaRoute />,
+        cName: "nav-text"
+    },
+    {
         title: "Ranking",
         path: "/ranking",
         icon: <IoIcons.IoMdTrophy />,
