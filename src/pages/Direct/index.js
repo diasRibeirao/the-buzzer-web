@@ -1,7 +1,13 @@
-import { Container } from "./styles";
+import { Container, NavButton } from "./styles";
+import { useHistory } from "react-router-dom";
 import { Form } from 'react-bootstrap';
+import imgMaps from "../../assets/maps.jpg";
 
 function Direct() {
+  const history = useHistory();
+
+  const handleNavigateToMeioTransportes = () => history.push("/transports");
+
   return (
     <Container>
       <Form>
@@ -13,10 +19,14 @@ function Direct() {
           <Form.Label>Destino</Form.Label>
           <Form.Control type="text" placeholder="Destino" />
         </Form.Group>
-
-        
-
       </Form>
+
+      <div>
+
+        <img src={imgMaps} id="maps" />
+        <NavButton onClick={handleNavigateToMeioTransportes}>Meios de Transportes</NavButton>
+      </div>
+        
     </Container>
   );
 }
