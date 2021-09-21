@@ -22,10 +22,19 @@ export const Container = styled.header`
         gap: 5px;
         width: 100%;
         text-align: center; 
+        display:table-cell;
+        vertical-align:middle;
 
         p {
             font-size: 24px;
             font-weight: bold;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            padding: 0;
+            margin: 0;
+            transform-origin: center center;
+            transform: translateX(calc((100% / 2) * (-1))) translateY(calc((100% / 2) * (-1)));
         }
     }
 
