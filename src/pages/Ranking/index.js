@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Form } from 'react-bootstrap';
 import Table from "../../components/Table";
 import { LinhaOnibusData } from "../../data/Ranking/linhaOnibusData"
@@ -10,14 +10,8 @@ function Ranking() {
 
   const datas = [ EmpresaOnibusData, LinhaOnibusData, LinhaMetroData ];
 
-  const [columns, setColumns] = useState([]);
-  const [data, setData] = useState([]);
-
-
-  useEffect(() => {
-    setColumns(datas[0].columns);
-    setData(datas[0].data);
-  }, []); 
+  const [columns, setColumns] = useState(datas[0].columns);
+  const [data, setData] = useState(datas[0].data);
 
   const handleRanking = async (e) => {
       let valor = e.target.value;

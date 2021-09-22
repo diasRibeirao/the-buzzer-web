@@ -23,7 +23,7 @@ function Direct() {
 
       <div>
 
-        <img src={imgMaps} id="maps" />
+        <img src={imgMaps} id="maps" alt="" />
         <NavButton onClick={handleNavigateToMeioTransportes}>Meios de Transportes</NavButton>
       </div>
         

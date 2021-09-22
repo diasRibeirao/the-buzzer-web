@@ -45,6 +45,7 @@ export const IconSignOut = styled(FaSignOutAlt)`
     color: var(--primary);
 
     transition: .2s;
+    margin-right: 10px;
 
     :active{
         transform: scale(0.9) rotate(360deg);

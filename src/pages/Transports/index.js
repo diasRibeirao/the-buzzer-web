@@ -1,10 +1,17 @@
+import { Container, NavButton } from "./styles";
 import React from 'react';
 
 function Transports() {
   return (
-    <div className='home'>
-      <h1>Transports</h1>
-    </div>
+    <Container>
+      <h2>Meios de Transportes</h2>
+
+      <div>
+
+        <NavButton>Meios de Transportes</NavButton>
+      </div>
+
+    </Container>
   );
 }
 
