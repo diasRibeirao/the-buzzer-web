@@ -10,8 +10,9 @@ export const Container = styled.section`
     }
 
     > div {
-        margin-top: 20px        ;
+        margin-top: 20px;
         text-align: center;
+        
 
         table svg {
             fill: var(--bgStar);

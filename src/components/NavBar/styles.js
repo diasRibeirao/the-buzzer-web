@@ -25,10 +25,12 @@ export const Container = styled.nav`
     left: -100%;
     transition: 850ms;
     box-shadow: 0px 0px 10px var(--bgSecondary);
+    z-index: 9999 !important;
   }
 
   .nav-menu svg {
     fill: var(--textPrimary);
+    z-index: 99999 !important;
   }
   
   .nav-menu.active {
@@ -43,6 +45,7 @@ export const Container = styled.nav`
     padding: 8px 0px 8px 16px;
     list-style: none;
     height: 60px;
+    z-index: 99999 !important;
   }
   
   .nav-text a {
@@ -55,6 +58,7 @@ export const Container = styled.nav`
     align-items: center;
     padding: 0 16px;
     border-radius: 4px;
+    z-index: 99999 !important;
   }
   
   .nav-text a:hover {
@@ -64,6 +68,7 @@ export const Container = styled.nav`
   .nav-menu-items {
     width: 100%;
     padding: 0;
+    z-index: 99999 !important;
   }
   
   .navbar-toggle {

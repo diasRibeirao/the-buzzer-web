@@ -25,7 +25,7 @@ export const GlobalStyles = createGlobalStyle`
     .emergency,
     .ranking {
         display: flex;
-        height: 90vh;
+       // height: 90vh;
         align-items: center;
         justify-content: center;
         font-size: 3rem;

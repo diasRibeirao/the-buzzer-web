@@ -1,35 +1,44 @@
 import React from 'react';
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
-import './styles.css';
+import { Container, NavButton } from "./styles";
 import Button from '@mui/material/Button';
 import FireExtinguisherIcon from '@mui/icons-material/FireExtinguisher';
 import LocalPoliceIcon from '@mui/icons-material/LocalPolice';
+import { Col, Row } from 'react-bootstrap';
+import * as FaIcons from 'react-icons/fa'
+import * as AiIcons from 'react-icons/ai'
+import * as IoIcons from 'react-icons/io'
 
 function Emergency() {
   return (
-    <div className='emergency'>
-      <h1>Emergência</h1>
-      <div className="main-content">
-        <div className="services">
-          <div className="icon">
-            <LocalHospitalIcon  ></LocalHospitalIcon>
-          </div>
-          <Button className="button" color="error" variant="contained">Solicitar ambulancia</Button>
-        </div>
-        <div className="services">
-          <div className="icon">
-            <FireExtinguisherIcon></FireExtinguisherIcon>
-          </div>
-          <Button className="button" color="error" variant="contained">Solicitar bombeiros</Button>
-        </div>
-        <div className="services">
-          <div className="icon">
-            <LocalPoliceIcon></LocalPoliceIcon>
-          </div>
-          <Button className="button" color="error" variant="contained">Solicitar policia</Button>
-        </div>
+    <Container>
+      <h2>Emergência</h2>
+
+      <div className="p-2 bd-highlight">
+        <Row className="justify-content-center line">
+          <Col md={10} className="b-2text-center text-md-rights">
+            <FaIcons.FaPlusSquare />
+            <NavButton>Solicitar ambulancia</NavButton>
+          </Col>
+        </Row>
+
+        <Row className="justify-content-center line">
+          <Col md={10} className="text-center text-md-rights">
+            <FaIcons.FaFireExtinguisher />
+            <NavButton>Solicitar bombeiros</NavButton>
+          </Col>
+        </Row>
+
+        <Row className="justify-content-center line">
+          <Col md={10} className="text-center text-md-rights">
+            <AiIcons.AiFillAlert />
+            <NavButton>Solicitar polícia</NavButton>
+          </Col>
+        </Row>
       </div>
-    </div>
+
+
+    </Container>
   );
 }
 export default Emergency;
