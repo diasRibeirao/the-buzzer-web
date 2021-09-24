@@ -5,7 +5,7 @@ import google from './google.png';
 function Home() {
   return (
     <><div className='home'>
-      <h1>The Buser</h1>
+      <h2>The Buser</h2>
     </div><div className='footers'>
     <form onSubmit={handleSubmit(data => saveData(data))}>
      <label>E-mail</label>
