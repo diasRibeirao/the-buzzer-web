@@ -1,6 +1,7 @@
 import * as React from 'react';
 import logobuser from './buser.png';
 import { Button} from 'react-bootstrap';
+import {img, Button, div} from "./styles";
 
 function Home() {
   return (
