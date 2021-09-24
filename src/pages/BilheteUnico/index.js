@@ -3,6 +3,7 @@ import * as React from 'react';
 import logoBom from './logo_bom.png';
 import logo from './logo_bu.png';
 import './styles.css';
+import { useHistory } from "react-router-dom";
 function BilheteUnico() {
   const history = useHistory();
   const handleNavigateToMeioTransportes = () => history.push("/consultaSaldo");
