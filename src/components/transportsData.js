@@ -30,7 +30,7 @@ export const TransportsData = [
     },
     {
         title: "Integrações",
-        param: "/Rota sem integrações",
+        param: "Rota sem integrações",
         icon: <IoIcons.IoMdSettings />,
         iconRight: <FaIcons.FaAngleRight />, 
     }

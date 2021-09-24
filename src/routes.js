@@ -7,6 +7,7 @@ import Direct from './pages/Direct';
 import Header from "./components/Header";
 import Transports from "./pages/Transports";
 import TransportDetail from "./pages/TransportDetail";
+import Report from "./pages/Report";
 
 function Router() {
 
@@ -16,6 +17,7 @@ function Router() {
             <Header />
             <Switch>
                 <Route path="/" exact component={Home} />
+                <Route path="/report" component={Report} />
                 <Route path="/emergency" component={Emergency} />
                 <Route path="/ranking" component={Ranking} />
                 <Route path="/direct" component={Direct} />
