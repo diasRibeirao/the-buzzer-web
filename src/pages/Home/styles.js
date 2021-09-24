@@ -14,4 +14,16 @@ export const Container = styled.section`
   
     }
 
+    > button {/* btnLogin */
+
+        position: absolute;
+        width: 296px;
+        height: 48px;
+        left: 32px;
+        top: 480px;
+        
+        background: rgba(217, 60, 60, 0.81);
+        border-radius: 8px;
+        }
+
 `;
