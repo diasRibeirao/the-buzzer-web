@@ -14,7 +14,7 @@ export const Container = styled.section`
   
     }
 
-    > button {/* btnLogin */
+    > Button {/* btnLogin */
 
         position: absolute;
         width: 296px;
@@ -25,5 +25,19 @@ export const Container = styled.section`
         background: rgba(217, 60, 60, 0.81);
         border-radius: 8px;
         }
+
+    > img {
+        /* bus 1 */
+
+            position: absolute;
+            width: 238px;
+            height: 237px;
+            left: 61px;
+            top: 142px;
+
+            background: url(bus.png);
+            border-radius: 7px;
+
+    }
 
 `;
