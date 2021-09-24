@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { Form, Table } from 'react-bootstrap';
-import { useTable, useFilters, useSortBy } from "react-table";
+import React from "react";
+import { Table } from 'react-bootstrap';
+import { useTable, useSortBy } from "react-table";
 import { Container } from "./styles";
 import Star from "../Star";
 

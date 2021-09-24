@@ -32,5 +32,4 @@ function Emergency() {
     </div>
   );
 }
-
 export default Emergency;
