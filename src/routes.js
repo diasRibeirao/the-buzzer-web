@@ -10,11 +10,12 @@ import TransportDetail from "./pages/TransportDetail";
 import Report from "./pages/Report";
 
 function Router() {
+    const signOut = false;
 
 
     return (
         <BrowserRouter>
-            <Header />
+            {signOut && (<Header />)}
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route path="/report" component={Report} />
