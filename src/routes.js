@@ -6,6 +6,7 @@ import Ranking from './pages/Ranking';
 import Direct from './pages/Direct';
 import Header from "./components/Header";
 import Transports from "./pages/Transports";
+import TransportDetail from "./pages/TransportDetail";
 
 function Router() {
 
@@ -19,6 +20,7 @@ function Router() {
                 <Route path="/ranking" component={Ranking} />
                 <Route path="/direct" component={Direct} />
                 <Route path="/transports" component={Transports} />
+                <Route path={("/transport-detail", "/transport-detail/:param?")} component={TransportDetail} exact  />
             </Switch>
       </BrowserRouter>
     );

@@ -10,30 +10,34 @@ export const Container = styled.section`
     }
 
     > div {
-        margin-top: 20px;
+        margin-top: 20px        ;
+        text-align: center;
 
         table svg {
             fill: var(--bgStar);
         }
+
+        a {
+            text-decoration: none;
+            color: var(--textPrimary);
+            font-size: 24px;
+            width: 95%;
+            height: 100%;
+            padding: 0 16px;
+            border-radius: 4px;
+            line-height: 4em;;
+        }
+         
+        a > svg {
+            font-size: 30px;
+            padding-left: 10px;
+        }
+
+        a > svg:first-of-type {
+            font-size: 72px;
+            padding-right: 10px;
+        }
   
     }
-
-`;
-
-
-export const NavButton = styled.button`
-    width: 160px;
-    height: 40px;
-    position: fixed;
-    bottom: 10px;
-    left: 50%;
-    margin-left: -80px;
-    border-radius: 5%;
-    font-size: 14px;
-    font-weight: bold;
-
-    background: #D93C3C;
-    color: #fff;
-    border: 0;
 
 `;
