@@ -3,16 +3,15 @@ import Navbar from '../../components/NavBar';
 
 function Header() {
 
-    const signOut = true;
  
 
     return (
         <Container>
-            {signOut && (<Navbar />)}
+            <Navbar />
             <div>
                <p>The Buzzer</p>
             </div>
-            {signOut && (<IconSignOut />)}
+            <IconSignOut />
         </Container>
     )
 }

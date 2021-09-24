@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Home() {
+function EsqueceuSenha() {
   return (
     <><div className='home'>
       <h1>Por favor, informe abaixo seu e-mail de cadastro.</h1>
@@ -16,4 +16,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default EsqueceuSenha;

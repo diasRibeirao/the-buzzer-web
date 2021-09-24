@@ -2,7 +2,7 @@ import React from 'react';
 import facebook from './facebook.png';
 import google from './google.png';
 
-function Home() {
+function Login() {
   return (
     <><div className='home'>
       <h2>The Buser</h2>
@@ -22,4 +22,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Login;

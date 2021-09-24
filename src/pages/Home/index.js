@@ -1,8 +1,12 @@
 import * as React from 'react';
 import logobuser from './buser.png';
-import {img, button, div} from "./styles";
+import { button, div} from "./styles";
 import { Link } from 'react-router-dom';
 import { Container } from "./styles";
+import './styles.css';
+import Button from '@restart/ui/esm/Button';
+
+
 
 function Home() {
   return (
@@ -11,8 +15,8 @@ function Home() {
     </div><div className='footers'>
         <img src={logobuser} />
         <div className='buttons'>
-        <Link className='btn btn-primary log'to="/Login">Login</Link>
-        <Link className='btn btn-primary cad' to="/Cadastrar">Cadastrar</Link>
+        <Button className='btnLogin'to="/Login">Login</Button>
+        <Button className='btnCadastrar' to="/Cadastrar">Cadastrar</Button>
         </div>
       </div></>
 

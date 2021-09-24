@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Home() {
+function ConfirmarEsqueceu() {
   return (
     <><div className='home'>
       <h1>Caso seu email esteja em nosso cadastro, voce receberá um link para criar uma nova senha.</h1>
@@ -12,4 +12,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default ConfirmarEsqueceu;
