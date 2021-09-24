@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Home() {
+function Cadastro() {
   return (
     <><div className='home'>
       <h1>Cadastro</h1>
@@ -24,4 +24,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Cadastro;
