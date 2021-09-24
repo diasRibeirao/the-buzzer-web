@@ -1,9 +1,9 @@
 import { Container, IconSignOut } from "./styles";
 import Navbar from '../../components/NavBar';
-
+import signOut from '../../global'
 function Header() {
 
-    const signOut = true;
+   
  
 
     return (

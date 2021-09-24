@@ -8,10 +8,11 @@ import { styled } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 import * as IoIcons from 'react-icons/io'
 import { Form, Col, Row } from 'react-bootstrap';
-
+import { useHistory } from "react-router-dom";
 
 function Report() {
-  
+  const history = useHistory();
+  const handleNavigateToMeioTransportes = () => history.push("/");
   const Input = styled('input')({
     display: 'none',
   });
@@ -66,7 +67,7 @@ function Report() {
             
             
             <div className = "enviar">
-              <NavButton>Enviar</NavButton>
+              <NavButton onClick={handleNavigateToMeioTransportes}>Enviar</NavButton>
             </div>
           </div>
       </div>
