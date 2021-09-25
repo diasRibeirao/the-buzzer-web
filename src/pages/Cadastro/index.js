@@ -5,17 +5,17 @@ function Cadastro() {
     <><div className='home'>
       <h1>Cadastro</h1>
     </div><div className='footers'>
-    <form onSubmit={handleSubmit(data => saveData(data))}>
+    <form >
      <label>Nome</label>
-     <input name="nome" ref={register} />
+     <input name="nome"  />
      <label>E-mail</label>
-     <input name="senha" ref={register} />    
+     <input name="senha"  />    
      <label>Confirmação E-mail</label>
-     <input name="nome" ref={register} />
+     <input name="nome" />
      <label>Senha</label>
-     <input name="senha" ref={register} />
+     <input name="senha"  />
      <label>Confirmar Senha</label>
-     <input name="nome" ref={register} />
+     <input name="nome" />
      <input type="submit"  /> 
    </form>
 

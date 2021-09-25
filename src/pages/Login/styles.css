@@ -8,6 +8,7 @@
     height: 100vh;
     margin: 14px;
     text-align: center;
+    
 }
 
 h1 {
@@ -53,11 +54,14 @@ width: 296px;
 height: 48px;
 left: 50%;
 margin-left: -148px;
-top: 480px;
+top: 680px;
+
+/* image 1 */
 
 
-background: rgba(217, 60, 60, 0.81);
-border-radius: 8px;
+
+background: url(facebook.png);
+
 }
 
 
@@ -79,3 +83,50 @@ border-radius: 8px;
 .buttons{
     text-align:center;
 }
+
+.textemail{
+
+    position: absolute;
+    left: 0%;
+    right: 84.33%;
+    top: 47.62%;
+    bottom: -47.62%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    color: #000000;
+}
+
+
+.btnLoginRealizar {
+
+
+        position: absolute;
+        text-align:center;
+        width: 296px;
+        height: 48px;
+        left: 50%;
+        margin-left: -148px;
+        top: 780px;
+        
+        
+        background: rgba(217, 60, 60, 0.81);
+        border-radius: 8px;
+        
+    
+    }
+    
+    form{    
+        padding: 10px;
+        margin: 2px;
+    }
+
+    div{        
+        padding: 10px;
+        margin: 2px;
+    }

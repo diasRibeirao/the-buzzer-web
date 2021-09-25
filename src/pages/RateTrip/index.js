@@ -3,8 +3,11 @@ import React from 'react';
 import './index.css';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import { useHistory } from "react-router-dom";
 
 function RateTrip() {
+  const history = useHistory();
+  const handleNavigateToMeioTransportes = () => history.push("/");
   return (
       <>
     <div className='Rate'>
@@ -20,7 +23,7 @@ function RateTrip() {
           <TextField multiline rows={10}></TextField>
      </div>
      <div className="button">
-     <Button className = "button" color = "error" variant="contained">Enviar</Button>
+     <Button onClick={handleNavigateToMeioTransportes} className = "button" color = "error" variant="contained" >Enviar</Button>
      </div>
 
     </div>
